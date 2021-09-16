@@ -1,3 +1,16 @@
 micronaut:
   application:
     name: mnStockBroker
+  server:
+    port: 8080
+
+hello:
+  controller:
+    path: "/hello"
+  config:
+    greeting:
+      de: "hallo"
+      en: "hello"
+
+greeting:
+  message: "Thank you for using our services"
